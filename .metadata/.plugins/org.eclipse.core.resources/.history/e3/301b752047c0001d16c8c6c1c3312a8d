@@ -1,0 +1,19 @@
+package Exceptions;
+
+import java.io.IOException;
+
+public class tryCtchblock {
+	public void m1() throws Exception
+	{
+		throw new IOException();
+	}
+	public void m2() {
+		
+		m1();
+	
+	}
+	public static void main(String args[])
+	{
+		
+	}
+}

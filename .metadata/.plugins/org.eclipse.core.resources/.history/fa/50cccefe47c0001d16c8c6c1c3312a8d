@@ -1,0 +1,26 @@
+package Exceptions;
+
+import java.io.IOException;
+
+public class tryCtchblock {
+	public void m1()  
+	{
+		throw new ArithmeticException();
+	}
+	public void m2() {
+		try
+		{
+		m1();
+		System.out.println("hai");
+		}
+		catch(Exception e)
+		{
+			System.out.println("jiii");
+		}
+		
+	}
+	public static void main(String args[])
+	{
+		
+	}
+}

@@ -1,0 +1,9 @@
+package Exceptions;
+
+public class CustomExcep extends Exception {
+	public CustomExcep(String str)
+	{
+		super(str);
+	}
+
+}

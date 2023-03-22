@@ -1,0 +1,22 @@
+package Exceptions;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Collections {
+	public static void main(String args)
+	{
+		
+		Scanner s =new Scanner(System.in);
+		List<String> l2=new ArrayList<>();
+		l2.add("softball");
+		l2.add("cricket");
+		l2.add("basketball");
+		l2.add("football");
+		l2.add("vollyball");
+		
+		
+	}
+
+}
